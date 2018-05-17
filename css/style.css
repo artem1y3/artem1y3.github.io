@@ -1,0 +1,211 @@
+body{
+	/*font-family: 'sans-serif';*/
+}
+p{
+	margin: 10px 0 10px;
+}
+
+.my-flex-container{
+	background: red;
+	height: 400px;
+	display: flex;
+	/*inline-flex*/
+	flex-direction: column;
+	/*row, row-reverse, column, column-reverse*/
+	justify-content: space-around;
+	/*flex-start, flex-end, center, space-between, space-around*/
+	align-items: center;
+	/*flex-start, flex-end, center, baseline, stretch*/
+	flex-wrap: wrap;
+	/*nowrap, wrap, wrap-reverse*/
+	/*flex-flow = flex-direction + flex-wrap*/
+	align-content: ;
+}
+
+.vertical-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flex-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.logo{
+	max-width: 340px;
+	margin-bottom: 15px;
+}
+
+
+
+.my-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100px;
+	font-size: 15pt;
+	margin-top: 20px;
+}
+
+.header .row{
+	margin: 15px 0 15px;
+}
+
+.order{
+	background: #1A36E3;
+	border-radius: 5px;
+	height: 43px;
+	width: 95%;
+	color: #fff;
+	text-align: center;
+	font-size: 14pt;
+}
+
+.form img{
+	height: 350px;
+}
+
+.form .row{
+	margin-bottom: 60px;
+}
+
+
+
+.header-title{
+	text-align: center;
+	color: #0160AF;
+	font-size: 19pt;
+	font-weight: bold;
+	margin: 30px 0 40px;
+}
+
+.contact-form{
+	height: 350px;
+	background: green;
+}
+
+.list-flex{
+	display: flex;
+	/*background: blue;*/
+	justify-content: space-between;
+	padding-bottom: 30px;
+}
+
+.list-flex>div{
+	/*background: red;*/
+	/*border: 1px #000 solid;*/
+	/*text-align: center;*/
+}
+
+.list-flex h4{
+	color: #0160AF;
+}
+
+.pick-inner{
+	background: linear-gradient(#00D25D,#00B812);
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.pick-inner-title{
+	color: white;
+	font-size: 15pt;
+	text-align: center;
+	padding: 25px;
+}
+
+.pick-inner>hr{
+	margin-top: 0;
+}
+
+.pick-inner .col-sm-4{
+	text-align: center;
+}
+
+.pick-inner .col-sm-4:nth-child(1) input,
+.pick-inner .col-sm-4:nth-child(2) input{
+	width: 100%;
+	height: 35px;
+	padding: 7px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.pick-inner .col-sm-4:nth-child(3) div{
+	color: white;
+	height: 35px;
+	text-align: left;
+	margin-bottom: 10px;
+	padding-top: 6px;
+}
+
+hr{
+	margin-top: 0;
+}
+.pick form>div{
+	text-align: center;
+	margin-top: 12px;
+}
+
+.pick form>div>input{
+	height: 60px;
+	width: 280px;
+	border-radius: 5px;
+	background: linear-gradient(yellow, #FFAF00, #FE9A00);
+	color: white;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.solutions img{
+	width: 100%;
+}
+
+
+.solutions p{
+	margin-top: 5px;
+	color: #0160AF;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.solutions .col-sm-4{
+	margin: 10px 0 10px;
+}
+
+.objects{
+	background: #0677D0;
+	color: white;
+	padding-bottom: 35px;
+}
+
+.objects .col-sm-4 div{
+	margin-bottom: 20px;
+}
+
+.objects-title{
+	color: white;
+	font-size: 17pt;
+	text-align: center;
+	margin: 23px;
+	font-weight: bold;
+}
+
+.objects p{
+
+}
+
+.image-obj{
+	width: 100%;
+	height: 180px;
+}
+
+.footer{
+	padding: 5px 0 10px;
+}
