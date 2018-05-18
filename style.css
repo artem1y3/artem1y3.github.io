@@ -82,6 +82,7 @@ p{
 .order{
 	background: linear-gradient(#3E96DE,#02679B, #02679B, #3E96DE);
 	border-radius: 5px;
+	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.4);
 	height: 43px;
 	width: 95%;
 	color: #fff;
@@ -94,17 +95,25 @@ p{
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }*/
 
-.form .col-sm-8{
+.form .inner-background{
 	background: url('images/form_1.jpg');
 	background-size: cover;
+	/*box-shadow: 0 5px 15px 2px rgba(0,0,0,0.5);*/
 }
 
+.shadow{
+	box-shadow: 0 2px 10px 2px rgba(0,0,0,0.5);
+}
 
 .img-lst{
 	height: 60px;
 	width: 100px;
 	margin: auto;
 	text-align: center;
+}
+
+.list .row{
+	margin-bottom: 30px;
 }
 
 .button-sub{
@@ -143,14 +152,17 @@ p{
 	color: #0160AF;
 	font-size: 19pt;
 	font-weight: bold;
-	margin: 30px 0 40px;
+	margin: 20px 0 30px;
 }
 
 .contact-form{
-	height: 400px;
-	background: #21C245;
 	padding: 20px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+
+.inner-form{
+	background: #21C245;
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 .form form>input{
@@ -177,21 +189,9 @@ p{
 	top: 1px;
 }
 
-.list-flex{
-	display: flex;
-	/*background: blue;*/
-	justify-content: space-between;
-	padding-bottom: 30px;
-	text-align: center;
-}
 
-.list-flex>div{
-	/*background: red;*/
-	/*border: 1px #000 solid;*/
-	/*text-align: center;*/
-}
 
-.list-flex h4{
+.list h4{
 	color: #0160AF;
 }
 
