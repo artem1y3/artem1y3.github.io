@@ -116,6 +116,73 @@ p{
 	margin-bottom: 30px;
 }
 
+.inner-scheme{
+	margin: auto;
+	width: 85%;
+	background: grey;
+	padding: 20px 20px 20px 20px;
+}
+
+.inner-two-row{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.scheme .scheme-element{
+	width: 150px;
+	/*height: 150px;*/
+	margin-right: 50px;
+}
+
+
+
+.scheme .scheme-pointer{
+	width: 65px;
+	height: 45px;
+	margin-right: 50px;
+}
+.scheme .scheme-pointer2{
+	width: 80px;
+	height: 70px;
+	position: relative;
+	top: 25px;
+}
+
+.element-inner{
+	width: 90%;
+	background: rgba(255,255,255,0.6);
+	color: blue;
+	text-align: center;
+	border-radius: 25px;
+	margin: auto;
+}
+
+img{
+	vertical-align: baseline;
+}
+
+.scheme .one-row .scheme-element:nth-last-child(1){
+	position: relative;
+	top: 180px;
+	left: 40px;
+}
+.scheme img{
+	width: 100%;
+	height: 100%;
+}
+
+.scheme .one-row>div, .scheme .three-row>div{
+	display: inline-block;
+}
+
+.inner-two-row .order{
+	width: 60%;
+	margin: auto;
+	font-size: 12pt;
+}
+
 .button-sub{
 		margin-top: 10px;
     height: 50px;
