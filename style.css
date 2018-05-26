@@ -107,8 +107,8 @@ p{
 }*/
 
 .form .inner-background{
-	background: url('images/form_1.jpg');
-	background-size: cover;
+	/*background: url('images/form_1.jpg');*/
+	/*background-size: cover;*/
 	/*box-shadow: 0 5px 15px 2px rgba(0,0,0,0.5);*/
 }
 
@@ -117,17 +117,63 @@ p{
 	padding: 10px;
 	width: 70%;
 	font-size: 1.5rem;
+	margin-top: 15px;
 }
 
 .slider{
-	padding: 15px 0 15px;
 	height: 100%;
 	width: 100%;
+
 }
 
 .slider-element{
-	height: 100%;
+	height: 250px;
 	width: 100%;
+	outline: none;
+}
+
+.sl1{
+	background: url('images/form_1.jpg');
+	-webkit-background-size: 100% 100% cover;
+	background-size: 100% 100% cover;
+}
+.sl2{
+	background: url('images/form_1.jpg');
+	-webkit-background-size: 100% 100% cover;
+	background-size: 100% 100% cover;
+}
+.sl3{
+	background: url('images/form_1.jpg');
+	-webkit-background-size: 100% 100% cover;
+	background-size: 100% 100% cover;
+}
+.sl4{
+	background: url('images/form_1.jpg');
+	-webkit-background-size: 100% 100% cover;
+	background-size: 100% 100% cover;
+}
+
+.draggable{
+	height: 100%!important;
+}
+
+.slick-track{
+	height: 100%;
+}
+
+.slider .slick-dots{
+	position: absolute;
+	bottom: 15px;
+}
+.slider .slick-dots button:before{
+	font-size: 15px;
+	color: white;
+	opacity: .90;
+}
+
+.slick-dots li.slick-active button:before{
+	color: #21C245!important;
+	opacity: 1!important;
 }
 
 .shadow{
@@ -166,7 +212,8 @@ p{
 
 .scheme .scheme-element{
 	width: 150px;
-	height: 100%;
+	/*height: 100%;*/
+	z-index: 100;
 	/*margin-right: 50px;*/
 }
 
@@ -175,7 +222,7 @@ p{
 	/*background: #C5C9FE;*/
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
-	padding: 20px;
+	padding: 20px 20px 45px;
 	margin-bottom: 20px;
 }
 
@@ -230,26 +277,55 @@ p{
 	text-align: center;
 	border-radius: 25px;
 	margin: auto;
-	padding: 10px;
+	padding: 5px;
 	font-size: 1.5rem;
 	line-height: 1.0;
 	font-weight: 600;
+	position: absolute;
+	width: 156px;
+	z-index: -1;
 }
 .elem1{
  color: #0180C9;
+ bottom: -42px;
 }
 .elem2{
 	color: #0299D4;
+	bottom: -21px;
 }
 .elem3{
 	width: 100%;
-	color: #02CFD0;
+  color: #02CFD0;
+  bottom: -63px;
+  width: 222px;
+  left: -35px;
 }
 .elem4{
 	color: #01D099;
+	bottom: -21px;
 }
 .elem5{
 	color: #00B64B;
+	bottom: -21px;
+}
+
+.call-us{
+	height: 243px;
+}
+
+.step-3 .scheme-element{
+	position: relative;
+	left: -20px;
+	top: -45px;
+}
+
+/*.step-3{
+	display: block!important;
+}*/
+
+.cont{
+	height: 150px;
+	width: 156px;
 }
 
 img{
@@ -268,7 +344,7 @@ img{
 
 
 .inner-two-row .order{
-	width: 60%;
+	width: 80%;
 	/*margin: auto;*/
 	font-size: 12pt;
 }
@@ -299,6 +375,7 @@ img{
     color: white;
     font-weight: bold;
     font-size: 14pt;
+    cursor: pointer;
 }
 
 .form .row{
@@ -399,6 +476,7 @@ img{
 	padding: 7px;
 	border-radius: 4px;
 	margin-bottom: 10px;
+	font-size: 1.2rem;
 }
 
 .pick-inner .col-sm-4:nth-child(3) div{
@@ -406,8 +484,9 @@ img{
 	height: 35px;
 	text-align: left;
   margin-bottom: 13px;
-  margin-top: 7px;
+  margin-top: 5px;
 	padding-top: 6px;
+	font-size: 1.2rem;
 }
 
 .description-solutions{
@@ -430,6 +509,7 @@ hr{
 	color: white;
 	font-weight: bold;
 	font-size: 14pt;
+	cursor: pointer;
 }
 
 .solutions img{
@@ -441,8 +521,7 @@ hr{
 	font-weight: bold;
 	bottom: 15px;
 	background: rgba(0, 184, 50, 0.6);
-	padding: 5px 15px 5px;
-	width: 70%;
+	padding: 5px 10px 5px;
 	color: white;
 	font-size: 1.4rem;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
