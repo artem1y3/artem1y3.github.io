@@ -512,6 +512,7 @@ hr{
 	cursor: pointer;
 }
 
+
 .solutions img{
 	width: 100%;
 }
@@ -532,6 +533,7 @@ hr{
 
 .solutions p{
 	margin-top: 5px;
+	margin-bottom: 0;
 	color: #0160AF;
 	font-size: 16pt;
 	font-weight: bold;
