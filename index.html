@@ -83,14 +83,14 @@
 							</span>
 						</div>
 						<hr align="center" width="100%" size="2" color="#EEF1F4" />
-						<form action="#">
-							<input type="text" placeholder="Ваше ФИО">
-							<input type="text" placeholder="Ваш телефон">
-							<input type="text" placeholder="Площадь комнаты, м2">
-							<input type="text" placeholder="Ориентация окон (север, юг, запад, восток)">
+						<form action="mail.php" method="POST">
+							<input type="text" name="fio" placeholder="Ваше ФИО">
+							<input type="text" name="tel" placeholder="Ваш телефон">
+							<input type="text" name="area" placeholder="Площадь комнаты, м2">
+							<input type="text" name="window" placeholder="Ориентация окон (север, юг, запад, восток)">
 							<div>
-								<span><input type="checkbox"> Есть телевизор</span>
-								<span><input type="checkbox"> Есть компьютер</span>
+								<span><input type="checkbox" name="tv"> Есть телевизор</span>
+								<span><input type="checkbox" name="pc"> Есть компьютер</span>
 							</div>
 							<div><input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="button-sub"></div>
 						</form>
@@ -123,6 +123,27 @@
 				<div class="col">
 					<div class="list-item text-center">
 						<div class="img-lst flex-center">
+							<img src="images/lst5.png" alt="">
+						</div>
+						<h4>ПОЛНОСТЬЮ<br>
+							БЕСПЛАТНОЕ<br>
+						ОБСЛУЖИВАНИЕ</h4>
+						<div>
+							Наши специалисты
+							бесплатно выедут к Вам
+							после 3-ех месяцев
+							эксплуатации, проведут
+							диагностику и выдадут
+							рекомендации по
+							дальнейшему
+							использованию
+							оборудованию
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="list-item text-center">
+						<div class="img-lst flex-center">
 							<img src="images/lst1.png" alt="">
 						</div>
 						<h4>100%<br>
@@ -138,23 +159,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
-					<div class="list-item text-center">
-						<div class="img-lst flex-center">
-							<img src="images/lst2.png" alt="">
-						</div>
-						<h4>100%<br>
-							СОБЛЮДЕНИЕ<br>
-						СРОКОВ</h4>
-						<div>
-							Наличие отдельного склада
-							и штатных сотрудников
-							позволяет выполнять
-							работу в кратчайшие сроки
-						</div>
-					</div>
-				</div>
-				
 				<div class="col">
 					<div class="list-item text-center">
 						<div class="img-lst flex-center">
@@ -178,21 +182,16 @@
 				<div class="col">
 					<div class="list-item text-center">
 						<div class="img-lst flex-center">
-							<img src="images/lst5.png" alt="">
+							<img src="images/lst2.png" alt="">
 						</div>
-						<h4>ПОЛНОСТЬЮ<br>
-							БЕСПЛАТНОЕ<br>
-						ОБСЛУЖИВАНИЕ</h4>
+						<h4>100%<br>
+							СОБЛЮДЕНИЕ<br>
+						СРОКОВ</h4>
 						<div>
-							Наши специалисты
-							бесплатно выедут к Вам
-							после 3-ех месяцев
-							эксплуатации, проведут
-							диагностику и выдадут
-							рекомендации по
-							дальнейшему
-							использованию
-							оборудованию
+							Наличие отдельного склада
+							и штатных сотрудников
+							позволяет выполнять
+							работу в кратчайшие сроки
 						</div>
 					</div>
 				</div>
@@ -291,15 +290,15 @@
 				<div class="container">
 					<div class="pick-inner-title">ПОДОБРАТЬ КОНДИЦИОНЕР ДЛЯ МОЕЙ КОМНАТЫ</div>
 					<hr align="center" width="100%" size="2" color="#EEF1F4" />
-					<form action="">
+					<form action="mail.php" method="POST">
 						<div class="row">
 							<div class="col-sm-4 inp">
-								<input type="text" name="FIO" placeholder="Ваше ФИО"><br>
-								<input type="text" name="number" placeholder="Ваше телефон"><br>
+								<input type="text" name="fio" placeholder="Ваше ФИО"><br>
+								<input type="text" name="tel" placeholder="Ваше телефон"><br>
 							</div>
 							<div class="col-sm-4 inp">
 								<input type="text" name="area" placeholder="Площадь комнаты, м2"><br>
-								<input type="text" name="windows" placeholder="Ориентация окон"><br>
+								<input type="text" name="window" placeholder="Ориентация окон"><br>
 							</div>
 							<div class="col-sm-4">
 								<div><input type="checkbox" name="tv"> У меня в комнате есть телевизор</div>
@@ -436,7 +435,7 @@
 					<div class="col-sm-5 my-flex">
 						<div class="inner-logo flex-center flex-row">
 							<img src="images/logo-footer.png" alt="" class="logo-footer">
-							<div>N-CLIMATE</div>
+							<div>Климат-N</div>
 						</div>
 					</div>
 					<div class="col-sm-3 my-flex">
