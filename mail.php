@@ -60,9 +60,9 @@ $mail->addAddress('artembk739@gmail.com');     // Кому будет уходи
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка';
-$text .= "Ваше ФИО: $fio\n\n";
-$text .= "Телефон: $tel\n";
-$text .= "Площадь комнаты, м2: $area\n";
+$text .= "ФИО: $fio\n\n<br>";
+$text .= "Телефон: $tel\n<br>";
+$text .= "Площадь комнаты, м2: $area\n<br>";
 $text .= "Ориентация окон: $window\n";
 $info = "From: petrovskov.shura@mail.ru\r\n";
 $mail->Body    = $text;
