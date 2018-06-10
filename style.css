@@ -347,6 +347,7 @@ p{
 
 .call-us{
 	height: 243px;
+	margin: auto;
 }
 
 .step-3 .scheme-element{
@@ -379,7 +380,7 @@ img{
 }
 
 
-.inner-two-row .order{
+.scheme .order{
 	width: 80%;
 	/*margin: auto;*/
 	font-size: 12pt;
@@ -395,7 +396,11 @@ img{
 	line-height: 0.3;
 }
 
-.scheme .inner-two-row p{
+.hid{
+	display: none;
+}
+
+.call-us p{
 	color: #02679B;
 	font-size: 1.7rem;
 	margin: 0;
@@ -647,6 +652,30 @@ hr{
 @media screen and (max-width: 1200px) {
 	.scheme .container .scheme-wrap{
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.step-3 .scheme-element{
+		left: 0px;
+		top: 0px;
+	}
+	.hid{
+		display: block;
+	}
+	.no-hid{
+		display: none!important;
+	}
+
+	.scheme .row>div{
+		margin-bottom: 10px;
+	}
+	.element-inner{
+		position: static;
+	}
+	.elem3{
+		position: relative;
+		bottom: 0px;
 	}
 }
 
