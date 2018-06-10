@@ -52,7 +52,7 @@ p{
 	flex-wrap: wrap;
 	/*nowrap, wrap, wrap-reverse*/
 	/*flex-flow = flex-direction + flex-wrap*/
-	align-content: ;
+	/*align-content: ;*/
 }
 
 .vertical-center{
@@ -168,23 +168,23 @@ p{
 
 .sl1{
 	background: url('images/form_1.jpg');
-	-webkit-background-size: 100% 100% cover;
-	background-size: 100% 100% cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .sl2{
 	background: url('images/form_1.jpg');
-	-webkit-background-size: 100% 100% cover;
-	background-size: 100% 100% cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .sl3{
 	background: url('images/form_1.jpg');
-	-webkit-background-size: 100% 100% cover;
-	background-size: 100% 100% cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .sl4{
 	background: url('images/form_1.jpg');
-	-webkit-background-size: 100% 100% cover;
-	background-size: 100% 100% cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .draggable{
@@ -251,7 +251,7 @@ p{
 	/*margin-right: 50px;*/
 }
 
-.scheme>.container{
+.scheme>.container .scheme-wrap{
 	background: url('images/light-blue-wallpaper-For-Desktop-Wallpaper.jpg');
 	/*background: #C5C9FE;*/
 	-webkit-background-size: 100% 100%;
@@ -267,6 +267,7 @@ p{
 	justify-content: center;
 	align-items: center;
 }
+
 
 .title-block{
     margin-top: 5px;
@@ -301,8 +302,9 @@ p{
     right: 18%;
 }
 
-.scheme .container{
-	width: 70%;
+.scheme .container .scheme-wrap{
+	width: 90%;
+	margin: auto;
 }
 
 .element-inner{
@@ -641,4 +643,10 @@ hr{
 	font-size: 14pt;
 }
 
+
+@media screen and (max-width: 1200px) {
+	.scheme .container .scheme-wrap{
+		width: 100%;
+	}
+}
 
