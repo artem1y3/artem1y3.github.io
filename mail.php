@@ -77,6 +77,7 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-     header('location: http://artem1y3:50000/index.php?in=1');
+     header('location: https://artem1y3.github.io/index.php?in=1');
 }
 ?>
+
