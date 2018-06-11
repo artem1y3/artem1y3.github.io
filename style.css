@@ -643,7 +643,7 @@ hr{
 	box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.4);
 	height: 43px;
 	width: 95%;
-	color: #3A3A3A;
+	color: #015fb1; /*#3A3A3A;*/
 	text-align: center;
 	font-size: 14pt;
 }
@@ -668,14 +668,23 @@ hr{
 	}
 
 	.scheme .row>div{
-		margin-bottom: 10px;
+		margin-bottom: 25px;
 	}
 	.element-inner{
 		position: static;
 	}
 	.elem3{
 		position: relative;
-		bottom: 0px;
+		bottom: 0;
+	}
+	.ord1{
+		order: 2;
+	}
+	.call-us{
+		height: 184px;
+	}
+	.scheme-wrap{
+		padding-bottom: 10px!important;
 	}
 }
 
