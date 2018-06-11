@@ -10,6 +10,9 @@ p{
 	margin: 10px 0 10px;
 }
 
+.cntks{
+	color: #0160af;
+}
 
 .modal{
 	background: rgba(0,0,0,0.8);
@@ -304,7 +307,7 @@ p{
 
 .scheme .container .scheme-wrap{
 	width: 90%;
-	margin: auto;
+	margin: auto auto 20px;
 }
 
 .element-inner{
@@ -361,8 +364,9 @@ p{
 }*/
 
 .cont{
-	height: 150px;
-	width: 156px;
+	/*height: 150px;*/
+	/*width: 156px;*/
+	/*text-align: center;*/
 }
 
 img{
@@ -510,8 +514,9 @@ img{
 	text-align: center;
 }
 
-.pick-inner .col-sm-4:nth-child(1) input,
-.pick-inner .col-sm-4:nth-child(2) input{
+
+.pick-inner .inp input,
+.pick-inner .inp input{
 	width: 100%;
 	height: 40px;
 	padding: 7px;
@@ -520,12 +525,12 @@ img{
 	font-size: 1.2rem;
 }
 
-.pick-inner .col-sm-4:nth-child(3) div{
+.pick-inner .checks{
 	color: white;
 	height: 35px;
 	text-align: left;
   margin-bottom: 13px;
-  margin-top: 5px;
+  margin-top: 8px;
 	padding-top: 6px;
 	font-size: 1.2rem;
 }
@@ -580,8 +585,12 @@ hr{
 	font-weight: bold;
 }
 
-.solutions .col-sm-4{
+.solutions .row>div{
 	margin: 10px 0 10px;
+}
+
+.solutions-item{
+	height: 190px; background-size: 100% 100%!important;
 }
 
 .objects{
@@ -620,6 +629,8 @@ hr{
 
 .footer i{
 	color: white;
+	position: relative;
+	top: 2px;
 }
 
 .family-normal{
@@ -655,6 +666,56 @@ hr{
 	}
 }
 
+@media screen and (max-width: 991px) {
+	.step-3 .scheme-element{
+		left: -35px;
+	}
+
+	.pick .checks{
+		position: relative;
+		bottom: 13px;
+	}
+	.solutions-item{
+		height: 300px;
+		width: 63%;
+		margin: auto;
+	}
+	.my-flex{
+		margin-top: 0;
+		/*height: 86px;*/
+	}
+	.logo{
+		height: 68px;
+	}
+	.cntks{
+		height: 68px;
+		text-align: center;
+
+	}
+	.ord{
+		margin-top: -21px;
+		margin-bottom: -24px;
+	}
+	.logo-footer{
+		height: 50px;
+		width: 50px;
+		margin-right: 16px;
+	}
+	.inner-logo{
+		font-size: 2.3rem;
+	}
+	.cont{
+		height: 70px;
+		text-align: center;
+	}
+	.logo-text{
+		font-size: 2.3rem;
+	}
+	.header-title{
+		margin: -12px 0 13px;
+	}
+}
+
 @media screen and (max-width: 767px){
 	.step-3 .scheme-element{
 		left: 0px;
@@ -682,9 +743,21 @@ hr{
 	}
 	.call-us{
 		height: 184px;
+		margin-bottom: 0!important;
 	}
 	.scheme-wrap{
 		padding-bottom: 10px!important;
+	}
+	.pick .checks{
+		margin-bottom: 0;
+	}
+	.solutions-item{
+		height: 300px;
+		width: 100%;
+		margin: auto;
+	}
+	.scheme .scheme-number{
+		font-size: 25pt;
 	}
 }
 
