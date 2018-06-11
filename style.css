@@ -23,6 +23,22 @@ p{
 	left: 0;
 	top: 0;
 	overflow: auto;
+	display: none;
+}
+
+.backss{
+	color: blue;
+}
+.bk{
+	cursor: pointer;
+}
+
+.closes1 .modal-win-content{
+	min-height: 100px!important;
+}
+
+.closes1 .modal-win-content{
+	text-align: center;
 }
 
 .modal-win-content{

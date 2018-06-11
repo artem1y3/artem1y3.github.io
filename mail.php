@@ -63,7 +63,13 @@ $mail->Subject = 'Заявка';
 $text .= "ФИО: $fio\n\n<br>";
 $text .= "Телефон: $tel\n<br>";
 $text .= "Площадь комнаты, м2: $area\n<br>";
-$text .= "Ориентация окон: $window\n";
+$text .= "Ориентация окон: $window\n<br>";
+if(!empty($_POST['tv'])){
+    $text .= "Имеется телевизор\n<br>";
+}
+if(!empty($_POST['pc'])){
+    $text .= "Имеется компьютер\n<br>";
+}
 $info = "From: petrovskov.shura@mail.ru\r\n";
 $mail->Body    = $text;
 $mail->AltBody = '';
@@ -71,6 +77,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    // header('location: thank-you.html');
+     header('location: http://artem1y3:50000/index.php?in=1');
 }
 ?>

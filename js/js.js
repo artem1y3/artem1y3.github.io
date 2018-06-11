@@ -6,14 +6,19 @@ $('.slider').slick({
 });
 
 $('.close-win').click(function(){
-	$('.modal-win').css('display','none');
+	$('.closes').css('display','none');
+	$('.closes1').css('display','none');
 })
 // $('.modal-win').click(function(){
 // 	$('.modal-win').css('display','none');
 // })
 
+$('.backss').click(function () {
+	$('.closes1').css('display','none');
+})
+
 $('.open-win').click(function () {
-	$('.modal-win').css('display','block');
+	$('.closes').css('display','block');
 })
 
 window.onclick = function (event) {
