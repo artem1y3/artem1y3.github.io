@@ -43,10 +43,14 @@ p{
 }
 
 .modal-win .row input{
-	border-radius: 2px;
-	margin: 5px;
-	height: 35px;
-	border: 1px #b3b3b3 solid;
+	 border-radius: 2px;
+	 margin: 5px;
+	 height: 35px;
+	 border: 1px #b3b3b3 solid;
+ }
+
+.modal-win .row input[type="text"]{
+	width: 80%
 }
 
 .modal-win .row div:nth-child(1){
@@ -817,6 +821,17 @@ hr{
 	}
 	.scheme .scheme-number{
 		font-size: 25pt;
+	}
+	.modal-win .row input[type="text"]{
+		width: 100%
+	}
+
+}
+
+@media screen and (max-width: 575px){
+	.modal-win .row div{
+		text-align: left!important;
+		padding-bottom: 5px;
 	}
 }
 
