@@ -14,30 +14,41 @@ p{
 	color: #0160af;
 }
 
-.modal{
+.modal-win{
 	background: rgba(0,0,0,0.8);
 	width: 100vw;
 	height: 100vh;
 	position: fixed;
-	z-index: 10;
+	z-index: 9000;
 	left: 0;
 	top: 0;
 	overflow: auto;
 }
 
-.modal-content{
+.modal-win-content{
 	background: #fefefe;
 	margin: 15px auto;
 	padding: 20px;
 	border: 1px #888 solid;
 	width: 80%;
+	min-height: 200px;
+	border-radius: 10px;
 }
 
-.close{
+.close-win{
 	color: #aaa;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
+	cursor: pointer;
+	line-height: 0.4;
+}
+.close-win:hover{
+	color: #000;
+}
+
+.open-win{
+	cursor: pointer;
 }
 
 
@@ -230,6 +241,9 @@ p{
 
 .list .list-item{
 	font-size: 1.2rem;
+	max-width: 400px;
+	min-width: 150px;
+	margin: 20px auto;
 }
 
 
@@ -424,7 +438,7 @@ img{
 }
 
 .form .row{
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
@@ -491,6 +505,7 @@ img{
 
 .list h4{
 	color: #0160AF;
+	margin-top: 10px;
 }
 
 .pick-inner{
