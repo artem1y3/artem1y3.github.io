@@ -35,6 +35,46 @@ p{
 	border-radius: 10px;
 }
 
+.modal-win .button-sub{
+	background: #027cbb;
+	display: block;
+	width: 50%;
+	margin: 5px auto;
+}
+
+.modal-win .row input{
+	border-radius: 2px;
+	margin: 5px;
+	height: 35px;
+	border: 1px #b3b3b3 solid;
+}
+
+.modal-win .row div:nth-child(1){
+	text-align: right;
+	position: relative;
+	top: 9px;
+}
+
+.modal-win .row:nth-child(5) div:first-child{
+	text-align: left;
+}
+.modal-win .row:nth-child(5)>div:first-child{
+	text-align: right;
+}
+.modal-win .row:nth-child(5) input{
+	height: 25px;
+	vertical-align: middle;
+}
+
+/*.modal-win .chkb{*/
+	/*margin-left: 5px;*/
+/*}*/
+
+.modal-win form{
+	font-size: 1.1rem;
+}
+
+
 .close-win{
 	color: #aaa;
 	float: right;
@@ -436,6 +476,7 @@ img{
     font-size: 14pt;
     cursor: pointer;
 }
+
 
 .form .row{
 	margin-bottom: 30px;

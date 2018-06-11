@@ -19,6 +19,38 @@
 <div class="modal-win">
   <div class="modal-win-content">
     <span class="close-win">x</span>
+    <h2>Заказать обратный звонок</h2>
+    <form action="mail.php" method="POST">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">Ваше ФИО:</div>
+          <div class="col-sm-9"><input type="text" name="fio" placeholder="Ваше ФИО"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">Ваш телефон:</div>
+          <div class="col-sm-9"><input type="text" name="tel" placeholder="Ваш телефон"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3"> Площадь комнаты, м2:</div>
+          <div class="col-sm-9"><input type="text" name="area" placeholder="Площадь комнаты, м2"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">Ориентация окон:</div>
+          <div class="col-sm-9">
+            <input type="text" name="window" placeholder="Ориентация окон (север, юг, запад, восток)">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3">Бытовая техника: </div>
+          <div class="col-sm-9">
+            <div class="chkb"><input type="checkbox" name="tv"> Есть телевизор</div>
+            <div class="chkb"><input type="checkbox" name="pc"> Есть компьютер</div>
+          </div>
+        </div>
+      </div>
+      
+      <div><input type="submit" value="ОТПРАВИТЬ ЗАЯВКУ" class="button-sub"></div>
+    </form>
   </div>
 </div>
 <!-- End modal window -->
@@ -361,7 +393,7 @@
     </div>
     <div class="row">
       <div class="col-lg-4">
-        <div style="background: url(images/sol3.jpg);100%;" class="solutions-item">
+        <div style="background: url(images/sol3.jpg);" class="solutions-item">
           <div class="sol-title">
             Мультисплит системы
           </div>
